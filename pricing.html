@@ -1,232 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ulink | Pricing</title>
-
-  <style>
-    :root {
-      --blue: #64b3ff;
-      --blue-dark: #3a94e8;
-      --text: #111;
-      --muted: #666;
-      --bg: #ffffff;
-      --surface: #ffffff;
-      --border: #e0e0e0;
-      --radius: 14px;
-      --shadow: 0 8px 24px rgba(0,0,0,0.05);
-      --transition: 0.3s ease;
-    }
-
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      margin: 0;
-      padding: 0;
-    }
-
-    /* Header Section */
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: var(--surface);
-      padding: 15px 50px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-    .logo {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .logo img {
-      height: 42px;
-    }
-    nav a {
-      text-decoration: none;
-      color: inherit;
-      font-weight: 500;
-      margin-left: 30px;
-      opacity: 0.8;
-      transition: color 0.3s ease, opacity 0.3s ease;
-    }
-    nav a:hover {
-      color: var(--blue);
-      opacity: 1;
-    }
-
-    /* Comparison Section */
-    .title {
-      text-align: center;
-      margin: 60px 0 15px;
-      font-size: 2.6em;
-      font-weight: 700;
-    }
-    .subtitle {
-      text-align: center;
-      font-size: 1.1em;
-      color: var(--muted);
-      margin-bottom: 40px;
-    }
-
-    .toggle-container {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-    .toggle-buttons {
-      display: inline-flex;
-      border: 1px solid var(--border);
-      border-radius: 25px;
-      overflow: hidden;
-    }
-    .toggle-buttons button {
-      background: none;
-      border: none;
-      padding: 10px 25px;
-      font-weight: 600;
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
-    .toggle-buttons button.active {
-      background-color: var(--blue);
-      color: white;
-    }
-
-    .pricing-container {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 40px;
-      padding: 20px 40px;
-    }
-
-    .plan {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      width: 320px;
-      padding: 35px 30px;
-      text-align: center;
-      box-shadow: var(--shadow);
-      transition: all var(--transition);
-    }
-    .plan:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 10px 26px rgba(0,0,0,0.12);
-    }
-    .plan h2 {
-      color: var(--blue);
-      font-size: 1.6em;
-      margin-bottom: 10px;
-    }
-    .plan .price {
-      font-size: 1.3em;
-      font-weight: bold;
-      margin-bottom: 10px;
-      transition: all 0.3s ease;
-    }
-    .plan ul {
-      list-style: none;
-      padding: 0;
-      text-align: left;
-      margin-bottom: 25px;
-      color: inherit;
-    }
-    .plan ul li {
-      margin: 8px 0;
-      position: relative;
-      padding-left: 20px;
-    }
-    .plan ul li::before {
-      content: "✔";
-      color: var(--blue);
-      position: absolute;
-      left: 0;
-    }
-    .plan button {
-      background-color: var(--blue);
-      color: white;
-      border: none;
-      border-radius: 8px;
-      padding: 12px 25px;
-      font-size: 1em;
-      font-weight: 600;
-      cursor: pointer;
-      transition: background 0.3s ease, transform 0.2s ease;
-    }
-    .plan button:hover {
-      background-color: var(--blue-dark);
-      transform: translateY(-2px);
-    }
-    .plan.pro {
-      border: 2px solid var(--blue);
-      position: relative;
-    }
-    .discount {
-      background-color: #28a745;
-      color: white;
-      font-size: 0.85em;
-      padding: 4px 10px;
-      border-radius: 12px;
-      position: absolute;
-      top: 10px;
-      right: 10px;
-    }
-
-    /* Footer */
-    footer {
-      text-align: center;
-      padding: 25px;
-      background: #fafafa;
-      color: #777;
-      margin-top: 60px;
-      font-size: 0.9em;
-    }
-
-    @media(max-width: 768px) {
-      header { padding: 15px 20px; }
-      nav a { margin-left: 15px; }
-      .title { font-size: 2.2em; }
-      .pricing-container { padding: 20px; }
-    }
-  </style>
 </head>
-
 <body>
 
-  <!-- Header Section -->
+  <!-- Header -->
   <header>
-    <div class="logo">
-      <img src="Ulink_Logo.png" alt="Ulink Logo">
-      <h3>Ulink</h3>
-    </div>
+    <h1>Ulink</h1>
     <nav>
-      <a href="#">Home</a>
-      <a href="#" style="color:var(--blue);font-weight:600;">Pricing</a>
+      <a href="#">Home</a> |
+      <a href="#">Pricing</a> |
       <a href="#">Team</a>
     </nav>
   </header>
 
-  <!-- Comparison Section -->
-  <h1 class="title">Choose Your Plan</h1>
-  <p class="subtitle">Switch between Monthly and Annual plans to see your savings.</p>
+  <!-- Pricing Section -->
+  <h2>Choose Your Plan</h2>
+  <p>Switch between Monthly and Annual plans to see your savings.</p>
 
-  <div class="toggle-container">
-    <div class="toggle-buttons">
-      <button id="monthlyBtn" class="active">Monthly</button>
-      <button id="annualBtn">Annually (-20%)</button>
-    </div>
-  </div>
-
-  <section class="pricing-container">
-    <div class="plan">
-      <h2>Basic</h2>
-      <p class="price" id="basicPrice">Free / month</p>
+  <section>
+    <div>
+      <h3>Basic</h3>
+      <p>Free / month</p>
       <ul>
         <li>Search & apply manually</li>
         <li>Limited opportunities</li>
@@ -235,11 +33,9 @@
       <button>Sign Up</button>
     </div>
 
-    <div class="plan pro">
-      <div class="discount">20% off yearly</div>
-      <h2>Pro</h2>
-      <p class="price" id="proPrice">$29 / month</p>
-      <p class="subtext" id="proSubtext"></p>
+    <div>
+      <h3>Pro</h3>
+      <p>$29 / month</p>
       <ul>
         <li>All Basic features</li>
         <li>Auto apply system</li>
@@ -250,36 +46,10 @@
     </div>
   </section>
 
-  <!-- Footer Section -->
+  <!-- Footer -->
   <footer>
-    © 2025 Ulink. All rights reserved.
+    <p>© 2025 Ulink. All rights reserved.</p>
   </footer>
-
-  <script>
-    // Monthly/Annual toggle logic
-    const monthlyBtn = document.getElementById('monthlyBtn');
-    const annualBtn = document.getElementById('annualBtn');
-    const proPrice = document.getElementById('proPrice');
-    const proSubtext = document.getElementById('proSubtext');
-
-    function setMonthly() {
-      monthlyBtn.classList.add('active');
-      annualBtn.classList.remove('active');
-      proPrice.textContent = "$29 / month";
-      proSubtext.textContent = "";
-    }
-
-    function setAnnual() {
-      annualBtn.classList.add('active');
-      monthlyBtn.classList.remove('active');
-      proPrice.textContent = "$23.20 / month";
-      proSubtext.textContent = "Billed annually: $278 / year";
-    }
-
-    monthlyBtn.onclick = setMonthly;
-    annualBtn.onclick = setAnnual;
-    setMonthly();
-  </script>
 
 </body>
 </html>
