@@ -1,0 +1,17 @@
+/* ROOT */
+:root {
+    --blue: #1976D2;
+    --blue-hover: #2485E5;
+    --light-ui: #FFFFFF;
+    --light-ui-hover: #EFEFEF;
+    --dark-ui: #000000;
+    --dark-ui-hover: #333333;
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* XXX */
