@@ -1,0 +1,54 @@
+/* ROOT */
+:root {
+    --blue: #1976D2;
+    --blue-hover: #2485E5;
+    --light-ui: #FFFFFF;
+    --light-ui-hover: #EFEFEF;
+    --dark-ui: #000000;
+    --dark-ui-hover: #333333;
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV BAR */
+nav {
+    background: var(--blue);
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+}
+
+nav > img {
+    height: 50px;
+    margin: 10px 20px;
+    filter: brightness(500%);
+}
+
+nav > a {
+    color: var(--light-ui);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    font-family: "Inter", sans-serif;
+}
+
+nav > a:hover {
+    color: var(--light-ui-hover);
+}
+
+/* FOOTER */
+footer {
+    background: var(--dark-ui-hover);
+    color: var(--light-ui);
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+}
