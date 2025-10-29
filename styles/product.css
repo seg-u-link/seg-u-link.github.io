@@ -54,7 +54,13 @@ button{
     border-radius: 0.5em;
     color: white;
     border: none;
+    
 
+}
+button:hover {
+    color: #000000;
+    font-size: 0.9em;
+    text-decoration: underline;
 }
 footer{
     margin:0;
