@@ -1,0 +1,47 @@
+ULINK STYLE GUIDE
+
+== 1. Overall look & feel ==
+The overall website will have a professional and modern look to show high-brand standards. The UI will be kept simple to be student-friendly to not lose them in complicated interactions. The website will also use optimized searching algorithms to shorten querying time to make it feel fast and reliable. The Artificial Intelligence used will also be one of the most modern to provide high quality and efficient responses and automation to the user.
+
+
+== 2. Colours ==
+The website will be composed of black, white, and blue:
+- Black and hover (#000000 and #333333)
+- White and hover (#FFFFFF and #EFEFEF)
+- Blue and hover (#1976D2  and #2485E5)
+
+The black and white will keep a simple theme while the blue will add a more academic feel while keeping the overall atmosphere minimalistic, easy to navigate, and understandable for the user. The straightforward interface will make it easily adoptable to rapidly gain a great user-base.
+
+
+== 3. Layout and spacing ==
+The website will use wide spacing to give users a more flowing feel through the website instead of a condensed interface. The main page will compose of a top navigation bar for ease of travel through the site. Then there will be a large hero section to show the goal of ULink as well as a call-to-action for users to easily sign up. The rest of the landing page will consist of a problem-soltuion section to highlight the benefits of ULing, a section on how the app works to rapidly onboard new customers, and an FAQ section to clear up the user’s confusion.
+
+
+== 4. Typography ==
+Header tags will use “Inter”. They will also be larger and bolded to be more distinct and easier to notice, as well as act as a proper barrier between sections. The headers will be kept short, with only a couple words, to prevent hard-to-read sections.
+
+Paragraphs and other text will use “Spectral”. The font will be unbolded to keep a neat visual hierarchy, but slightly larger (1.2rem) to make it easier and faster to read, as well as not overloaded with pages with long-winded paragraphs of small text.
+
+
+== 5. Buttons / Forms / List ==
+The buttons will use wider paddings on the horizontal axis (2.5rem) and shorter padding on the vertical axis (1rem). They will use slightly rounded borders to make the site seem smoother and flow better while keeping a professional feel. The font-size will be 1.2rem to ensure proper legibility on both computers and phones. The colours will have proper contrast for button and font colour, so as to keep it legible. When hovering over the button, it’s colour will change slightly to create a more interactive feeling. 
+
+Some of the links will be in the form of a photo, for example on the team page, links to team members' emails and LinkedIns will be in the form of a logo, where when clicked will bring you to a new page, on a separate tab. This will improve the visual aesthetic by using images, rather than words. Other links, for example in the navigation bar, will be in the form of normal font, and will shift colour and cursor type when hovering over it to enhance interactivity. This will give it a more simplistic and tied together appearance, rather than basic blue and underlined text, which might make it feel unprofessional. 
+
+
+== 6. Icons ==
+Icons will be solid black circles of medium size in order to follow our professional, clean and simplistic feel. They will be used in lists, such as on the pricing page, as well header icons on the product features page. Icons will help give a visual representation of certain sections while simultaneously avoiding text overload.
+
+
+== 7. Interactivity ==
+The transitions that are going to be used throughout the website will be short but designed to be more snappy in order to give a professional and confident aspect to the website. The formatting will change depending on the screen size and shape. There will also be links to help the user travel easily across the different pages of the site.
+
+
+== 8. Accessibility ==
+To maintain high accessibility, all images will contain an “alt”attribute for improved readability with screen readers and maintaining high SEO. 
+Our website will follow the WCAG AA standards for contrast to improve readability and the aesthetic appeal of our website. We will use a large font size (1.2rem) and simplistic, easy to read, font and consistent line spacing to help with readability. 
+The website will allow for all keyboard shortcuts, having links and buttons accessible using the Tab key as well as other keyboard shortcuts. 
+
+
+== 9. Code Standards ==
+We start by organising our website with a structured folder containing all our HTML pages, a global CSS code  shared over all files (including headers, footers, paragraph styling, colours, etc), individual in-line CSS per page for specifics (ie: image sizes, tables, etc), and a global Java script file for interactivity.
