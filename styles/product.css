@@ -32,16 +32,38 @@ h2 {
 }
 
 p {
-    margin-bottom: 1em
+    margin-bottom: 1em;
+
 }
 
 body{
-    background-image: url('../images/school.jpg');
+    background-image: url('../images/nature.jpg');
     background-size:contain;
     background-repeat: no-repeat;
     background-size:cover;
 }
 
-div{
-    background-color: #EFEFEF;
+.boite{
+    background-color:rgb(202, 223, 234);
+    border-radius: 0 0.5em 0 0.5em;
 }
+
+button{
+    background-color: #5b7896;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+    border-radius: 0.5em;
+    color: white;
+    border: none;
+
+}
+footer{
+    margin:0;
+    padding:0;
+
+}
+p.foot{
+    bottom: 0;
+    margin:0;
+    padding:0;
+}
+
