@@ -22,8 +22,9 @@ nav {
     align-items: center;
 }
 
-nav > img {
+nav > a > img {
     height: 50px;
+    width: 50px;
     margin: 10px 20px;
     filter: brightness(500%);
 }
@@ -41,8 +42,19 @@ nav > a:hover {
     color: var(--light-ui-hover);
 }
 
+/* HEADERS */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Inter", sans-serif;
+    color: var(--dark-ui);
+}
+
+p {
+    font-family: "Inter Tight", sans-serif;
+    color: var(--dark-ui);
+}
+
 /* FOOTER */
-footer {
+footer > p {
     background: var(--dark-ui-hover);
     color: var(--light-ui);
     text-align: center;
