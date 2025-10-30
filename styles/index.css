@@ -15,3 +15,43 @@
 }
 
 /* XXX */
+!-- How it works Section -->
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Inter+Tight:wght@400;500&display=swap" rel="stylesheet">
+
+<div style="display:flex; flex-direction:column; align-items:center; padding:40px; font-family:'Inter Tight', sans-serif;">
+
+  <div style="border:2px solid black; border-radius:12px; padding:30px; width:950px; background-color:white;">
+
+    <h1 style="text-align:center; margin-bottom:30px; font-family:'Inter', sans-serif;">How it works ?</h1>
+
+    <div style="display:flex; justify-content:center; gap:60px; align-items:stretch;">
+
+      <div style="border:1px solid black; padding:30px; border-radius:10px; width:400px;">
+        <h2 style="font-family:'Inter', sans-serif;">Coop Search</h2>
+        <ol style="font-family:'Inter Tight', sans-serif; line-height:1.6;">
+          <li>Create your Ulink profile with your program, year of study, skills and interests.</li>
+          <li>uLink automatically scans verified co-op and internship postings from partner companies and institutions.</li>
+          <li>Our matching system filters opportunities that align with your program and experience level.</li>
+          <li>View all relevant openings in a single dashboard — with details like duration, location, and eligibility.</li>
+          <li>Apply directly through uLink using your saved profile and resume — no repetitive forms needed.</li>
+          <li>Track your applications and receive status updates in real time.</li>
+          <li>Get notified instantly when new matching co-op opportunities are posted.</li>
+        </ol>
+      </div>
+
+      <div style="border:1px solid black; padding:30px; border-radius:10px; width:400px;">
+        <h2 style="font-family:'Inter', sans-serif;">Scholarship Search</h2>
+        <ol style="font-family:'Inter Tight', sans-serif; line-height:1.6;">
+          <li>Set up your academic profile — including GPA, program, nationality, and financial needs.</li>
+          <li>uLink compiles available scholarships from universities, government.</li>
+          <li>The recommendation system filters and displays only scholarships that match your eligibility criteria.</li>
+          <li>Access key information instantly — amount, deadline, and required documents.</li>
+          <li>Apply directly through uLink or access the official application page with pre-filled details.</li>
+          <li>Receive reminders before deadlines and updates on your submitted applications.</li>
+          <li>Save and organize your favorite scholarships for later review.</li>
+        </ol>
+      </div>
+
+    </div>
+  </div>
+</div>
