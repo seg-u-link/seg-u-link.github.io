@@ -50,7 +50,24 @@ body {
 
 }
 
- 
+ header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 1em 0;
+  background-color: #f8f8f8;
+  color: #333;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
 section, div{
   text-align: center;
   margin: 10px 0;
