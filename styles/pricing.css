@@ -34,8 +34,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: var(--blue);
-  padding: 1rem 2rem;
+  background-color: #1976D2; /* Blue background */
+  padding: 1.2rem 0;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -43,20 +43,22 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: white; /* White text */
   font-weight: 600;
-  font-size: 1.2rem;
-  transition: color 0.3s ease;
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+  transition: opacity 0.3s ease;
 }
 
 nav a:hover {
-  color: #d3e6ff;
+  opacity: 0.8;
 }
 
 nav img {
-  height: 45px;
+  height: 50px;
   vertical-align: middle;
 }
+
 
 /* ----- MAIN SECTION ----- */
 h2 {
@@ -149,11 +151,14 @@ button:hover {
 /* ----- FOOTER ----- */
 footer {
   text-align: center;
-  background-color: var(--dark-ui);
-  color: var(--light-ui);
-  padding: 1.5rem;
-  font-size: 0.9rem;
+  background-color: #1976D2; /* same blue */
+  color: white;
+  padding: 2rem 0;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 1rem;
+  margin-top: 3rem;
 }
+
 
 /* ----- RESPONSIVE ----- */
 @media (max-width: 768px) {
