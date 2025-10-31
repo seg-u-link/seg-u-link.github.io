@@ -29,11 +29,11 @@ body {
   line-height: 1.6;
 }
 
-/* ----- NAVIGATION ----- */
+/* ----- NAVIGATION BAR ----- */
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: var(--blue);
   padding: 1rem 2rem;
   position: sticky;
@@ -44,8 +44,8 @@ nav {
 nav a {
   text-decoration: none;
   color: white;
-  margin: 0 1rem;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1.2rem;
   transition: color 0.3s ease;
 }
 
@@ -54,27 +54,16 @@ nav a:hover {
 }
 
 nav img {
-  height: 40px;
-}
-
-/* ----- HEADER (HERO STRIP) ----- */
-header {
-  background-color: var(--blue);
-  color: white;
-  text-align: center;
-  padding: 3rem 1rem;
-}
-
-header h1 {
-  font-size: 2.5rem;
-  font-weight: 600;
+  height: 45px;
+  vertical-align: middle;
 }
 
 /* ----- MAIN SECTION ----- */
 h2 {
   text-align: center;
   font-size: 2rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  color: var(--dark-ui);
 }
 
 p {
@@ -153,8 +142,8 @@ button {
 
 button:hover {
   color: black;
-  font-size: 0.9em;
   text-decoration: underline;
+  font-size: 0.9em;
 }
 
 /* ----- FOOTER ----- */
@@ -162,7 +151,7 @@ footer {
   text-align: center;
   background-color: var(--dark-ui);
   color: var(--light-ui);
-  padding: 2rem 1rem;
+  padding: 1.5rem;
   font-size: 0.9rem;
 }
 
@@ -182,4 +171,3 @@ footer {
     width: 90%;
   }
 }
-
