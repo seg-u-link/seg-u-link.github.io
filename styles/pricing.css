@@ -60,14 +60,23 @@ h2 {
   margin-bottom: 1rem;
   font-family: "Inter", sans-serif;
 }
+.subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 3rem;
+  font-family: "Inter Tight", sans-serif;
+}
 
 section {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   gap: 2rem;
-  padding: 2rem;
+  padding: 2rem 0 4rem 0;
 }
+
 
 section div {
   background-color: white;
