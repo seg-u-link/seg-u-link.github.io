@@ -29,13 +29,13 @@ body {
   line-height: 1.6;
 }
 
+/* ----- NAVIGATION ----- */
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--light-ui);
+  background-color: var(--blue);
   padding: 1rem 2rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -43,20 +43,34 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: var(--dark-ui);
+  color: white;
   margin: 0 1rem;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: var(--blue);
+  color: #d3e6ff;
 }
 
 nav img {
   height: 40px;
 }
 
+/* ----- HEADER (HERO STRIP) ----- */
+header {
+  background-color: var(--blue);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+/* ----- MAIN SECTION ----- */
 h2 {
   text-align: center;
   font-size: 2rem;
@@ -65,7 +79,7 @@ h2 {
 
 p {
   text-align: center;
-  color: #555;
+  color: #444;
   margin-bottom: 2rem;
 }
 
@@ -78,7 +92,7 @@ section {
 }
 
 section div {
-  background: var(--light-ui);
+  background: white;
   border: 1px solid #ddd;
   border-radius: 12px;
   width: 280px;
@@ -116,39 +130,43 @@ ul li {
   text-align: center;
   padding: 0.5rem 0;
   border-bottom: 1px solid #eee;
-  color: #444;
+  color: #333;
 }
 
 ul li:last-child {
   border-bottom: none;
 }
 
+/* ----- BUTTONS ----- */
 button {
   display: block;
   margin: 1.5rem auto 0;
   padding: 0.75rem 1.5rem;
-  background-color: var(--blue);
-  color: var(--light-ui);
+  background-color: #5b7896;
+  color: white;
   border: none;
-  border-radius: 9999px;
+  border-radius: 0.5rem;
   cursor: pointer;
   font-size: 1rem;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 button:hover {
-  background-color: var(--blue-hover);
+  color: black;
+  font-size: 0.9em;
+  text-decoration: underline;
 }
 
+/* ----- FOOTER ----- */
 footer {
   text-align: center;
-  padding: 2rem;
   background-color: var(--dark-ui);
   color: var(--light-ui);
-  margin-top: 3rem;
+  padding: 2rem 1rem;
   font-size: 0.9rem;
 }
 
+/* ----- RESPONSIVE ----- */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
