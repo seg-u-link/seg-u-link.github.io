@@ -15,32 +15,27 @@
 }
 
 /* pricing  */
-/* ---------- Typography ---------- */
-/* Add the line below to add the proper font for headers */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Inter", sans-serif;
 }
 
-/* Add the line below to add the proper font for paragraphs */
 p, a, li, button {
   font-family: "Inter Tight", sans-serif;
 }
 
-/* ---------- Base Layout ---------- */
 body {
   background-color: var(--light-ui);
   color: var(--dark-ui);
   line-height: 1.6;
 }
 
-/* ---------- Navbar ---------- */
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: var(--light-ui);
   padding: 1rem 2rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -62,7 +57,6 @@ nav img {
   height: 40px;
 }
 
-/* ---------- Headings ---------- */
 h2 {
   text-align: center;
   font-size: 2rem;
@@ -75,7 +69,6 @@ p {
   margin-bottom: 2rem;
 }
 
-/* ---------- Pricing Section ---------- */
 section {
   display: flex;
   justify-content: center;
@@ -90,13 +83,13 @@ section div {
   border-radius: 12px;
   width: 280px;
   padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 section div:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 section h3 {
@@ -130,7 +123,6 @@ ul li:last-child {
   border-bottom: none;
 }
 
-/* ---------- Buttons ---------- */
 button {
   display: block;
   margin: 1.5rem auto 0;
@@ -148,7 +140,6 @@ button:hover {
   background-color: var(--blue-hover);
 }
 
-/* ---------- Footer ---------- */
 footer {
   text-align: center;
   padding: 2rem;
@@ -158,7 +149,6 @@ footer {
   font-size: 0.9rem;
 }
 
-/* ---------- Responsive ---------- */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
