@@ -1,1 +1,55 @@
+/*website design and color*/
+html{
+    background-color: #E1E7F2;
+}
+.main{
+    margin:auto;
+}
+.intro{
+    padding:12px;
+}
+/*used for the title under the header*/
+.title{
+    height:100px;
+    background-color:#1976D2 ;
+}
+.title h1{
+    text-align:center;
+    color:#FFFFFF;
+}
+/*used for each team member */
+.member{
+    padding:12px;
+}
+/*profile image details */
+.image{
+    float:left;
+    width:16%;
+}
+.image img{
+    width:80%;
+    height:80%;
+    float:center;
+    border-radius: 50%;
+
+}
+/*member descriptions*/
+.text p{
+    width:98%
+}
+.text{
+    float:right;
+    width:84%;
+}
+/*Linkedin and email logos*/
+.text img{
+    height:30px;
+    width:30px;
+}
+/*clears previous floats */
+.clear-floats{
+    clear:both;
+}
+
+
 
