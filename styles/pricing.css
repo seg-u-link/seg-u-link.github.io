@@ -36,27 +36,6 @@ p {
 
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  display: flex;
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center; 
-  text-align: center;
-  font-family: Arial, sans-serif;
-  background: #ffffff;  
-
-}
-
- header {
-  width: 200%;
-  display: flex;
-  justify-content: space-between;
-  padding: 1em 2em;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
 
 footer {
   width: 100%;
