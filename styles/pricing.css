@@ -36,26 +36,26 @@ p {
 
 }
 
-/* Center everything on the page */
 body {
   margin: 0;
   padding: 0;
   height: 100vh;
   display: flex;
-  flex-direction: column; /* Keeps elements stacked vertically */
-  justify-content: center; /* Vertical centering */
-  align-items: center; /* Horizontal centering */
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
   text-align: center;
   font-family: Arial, sans-serif;
+  background: #ffffff;  
+
 }
 
-/* Optional: Center all text inside sections or divs */
+ 
 section, div, footer, header {
   text-align: center;
   margin: 10px 0;
 }
 
-/* Optional: Adjust buttons and lists for alignment */
 button {
   display: inline-block;
   margin: 5px auto;
@@ -66,23 +66,22 @@ ul {
   padding: 0;
 }
 
-/* Container for the pricing plans */
+
 .pricing-container {
   display: flex;
-  justify-content: center;   /* centers horizontally */
-  align-items: flex-start;    /* aligns tops evenly */
-  gap: 40px;                  /* space between boxes */
-  flex-wrap: wrap;            /* keeps it responsive on small screens */
+  justify-content: center;  
+  align-items: flex-start;    
+  gap: 40px;                  
+  flex-wrap: wrap;            
   margin-top: 40px;
 }
 
-/* Individual pricing boxes */
 .plan-box {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 12px;
   padding: 30px;
-  width: 260px;              /* fixed width for consistency */
+  width: 260px;             
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
