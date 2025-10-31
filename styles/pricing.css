@@ -51,7 +51,7 @@ body {
 }
 
  
-section, div, footer, header {
+section, div{
   text-align: center;
   margin: 10px 0;
 }
