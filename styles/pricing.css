@@ -21,8 +21,9 @@ nav a:hover {
     text-decoration: underline;
 }
 
-img {
-    margin: 1em 1em 1em 1em;
+/* Hide top logo image */
+img[alt="Ulink logo"] {
+    display: none;
 }
 
 h2 {
@@ -31,20 +32,23 @@ h2 {
 
 p {
     margin-bottom: 1em;
-
 }
 
+/* PRICING SECTION */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2em;
+    flex-wrap: wrap;
+    padding: 2em;
+}
 
-  section {
-    flex-direction: column;
-    align-items: center;
-  }
+section div {
+    width: 250px;
+}
 
-  section div {
-    width: 90%;
-  }
-
- body {
+body {
     background-image: url('../images/nature.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -52,6 +56,7 @@ p {
     color: var(--dark-ui);
     text-align: center;
 }
+
 h2 {
     margin-top: 3em;
     margin-bottom: 0.5em;
@@ -66,14 +71,6 @@ h2 {
 }
 
 /* PRICING BOXES */
-section {
-    display: flex;
-    justify-content: center;
-    gap: 2em;
-    flex-wrap: wrap;
-    padding: 2em;
-}
-
 .plan {
     background-color: rgb(202, 223, 234);
     border-radius: 0 0.5em 0 0.5em;
@@ -87,47 +84,3 @@ section {
     transform: translateY(-5px);
 }
 
-/* BUTTON */
-button {
-    background-color: #5b7896;
-    padding: 0.5em 1em;
-    border-radius: 0.5em;
-    color: white;
-    border: none;
-    margin-top: 1em;
-    cursor: pointer;
-}
-
-button:hover {
-    color: #000000;
-    font-size: 0.9em;
-    text-decoration: underline;
-}
-
-/* ---------- FOOTER ---------- */
-footer{
-    margin:0;
-    padding:0;
-
-}
-p.foot{
-    bottom: 0;
-    margin:0;
-    padding:0;
-}
-/* ---------- RESPONSIVE ---------- */
-@media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  section {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  section div {
-    width: 90%;
-  }
-}
