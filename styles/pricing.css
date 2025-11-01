@@ -15,6 +15,22 @@
 }
 
 /* price  */
+/* Center the heading and subtitle */
+.pricing-header {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.pricing-header h1 {
+  font-size: 2em;
+  color: var(--dark-ui, #000);
+}
+
+.pricing-header p {
+  color: var(--dark-ui, #000);
+  margin-top: 0.5em;
+}
+
 
 .pricing-container {
   display: flex;
