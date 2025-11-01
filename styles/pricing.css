@@ -15,26 +15,41 @@
 }
 
 /* price  */
-
-
-
 nav a:hover {
-  color: black;
-  font-size: 1.5em;
-  text-decoration: underline;
+    color: black;
+    font-size: 1.5em;
+    text-decoration: underline;
 }
 
-
-.pricing-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 2em;
-  flex-wrap: wrap;
-  margin: 4em 1em;
+img {
+    margin: 1em 1em 1em 1em;
 }
 
-section, div {
+h2 {
+    margin: 4em 1em 3em 1em;
+}
+
+p {
+    margin-bottom: 1em;
+
+}
+
+h2, p {
+  text-align: center;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 1em 0;
+  background-color: #f8f8f8;
+  color: #333;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+section, div{
   text-align: center;
   margin: 10px 0;
 }
@@ -44,15 +59,85 @@ button {
   margin: 5px auto;
 }
 
-
-img {
-  margin: 1em;
-}
-
-
 ul {
   list-style: none;
   padding: 0;
 }
+
+
+.pricing-container {
+  display: flex;
+  justify-content: center;  
+  align-items: flex-start;    
+  gap: 40px;                  
+  flex-wrap: wrap;            
+  margin-top: 40px;
+}
+
+.plan-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 30px;
+  width: 260px;             
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.plan-box h3 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.plan-box p {
+  margin: 6px 0;
+}
+
+button {
+  background-color: #4b6584;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+button:hover {
+  background-color: #34495e;
+}
+
+
+button{
+    background-color: #5b7896;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+    border-radius: 0.5em;
+    color: white;
+    border: none;
+    
+
+}
+button:hover {
+    color: #000000;
+    font-size: 0.9em;
+    text-decoration: underline;
+}
+footer{
+    margin:0;
+    padding:0;
+
+}
+p.foot{
+    bottom: 0;
+    margin:0;
+    padding:0;
+}
+
+
 
 
