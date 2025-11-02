@@ -14,11 +14,19 @@
     padding: 0;
 }
 
+/* BODY */
+body {
+    min-height: 100vh;
+    background-color: #E1E7F2;
+    position: relative;
+}
+
 /* NAV BAR */
 nav {
     background: var(--blue);
     display: flex;
-    justify-content: space-between;  
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
     align-items: center;
 }
 
@@ -36,31 +44,51 @@ nav > a {
     font-weight: 500;
     padding: 10px 20px;
     font-family: "Inter", sans-serif;
+    min-width: fit-content;
 }
 
 nav > a:hover {
     color: var(--light-ui-hover);
 }
 
-/* HEADERS */
+/* HEADERS AND TEXT */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Inter", sans-serif;
     color: var(--dark-ui);
 }
 
-p {
+h1.mainHeader {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+}
+
+p.subHeader {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+p, li, details, summary {
     font-family: "Inter Tight", sans-serif;
     color: var(--dark-ui);
+    font-size: 1.2rem;
 }
 
 /* FOOTER */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 footer > p {
     background: var(--dark-ui-hover);
     color: var(--light-ui);
     text-align: center;
     padding: 20px;
-    position: fixed;
-    bottom: 0;
     width: 100%;
     font-family: "Inter", sans-serif;
+    font-size: 1rem;
 }

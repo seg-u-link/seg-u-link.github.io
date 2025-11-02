@@ -1,24 +1,23 @@
 /*website design and color*/
-html{
-    background-color: #E1E7F2;
-}
 .main{
     margin:auto;
 }
 .intro{
     padding:12px;
-}
-/*used for the title under the header*/
-.title{
-    height:100px;
-    background-color:#1976D2 ;
-}
-.title h1{
-    text-align:center;
-    color:#FFFFFF;
+    width: 90vw;
+    max-width: 1250px;
+    margin: auto;
 }
 /*used for each team member */
+
+.memberSection {
+    width: 90vw;
+    max-width: 1250px;
+    margin: auto;
+}
+
 .member{
+    margin-top: 3rem;
     padding:12px;
 }
 /*profile image details */

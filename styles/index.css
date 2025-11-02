@@ -14,71 +14,151 @@
     padding: 0;
 }
 
-/* XXX */
-body{
-  background-image: url("https://github.com/seg-u-link/seg-u-link.github.io/blob/main/images/IMG_5775.JPG?raw=true");
-  background-repeat: no-repeat;
-  background-size: cover 30%;
-  background-position:center;
-  height: 100vh;
-  margin:0;
+/* HEADER */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("../images/IMG_5775.JPG");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100vw;
 }
 
-header{
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-  text-align:center;
-  padding-top:430px;
-  height:100vh;
-  width:100%;
-  color:#EFEFEF;
-  button{
-    padding:30px;
-    font-size:1em;}
-  p{
-    font-size:25px;}
-  h1{
-    font-size:50px;}
+header * {
+  color: white;
 }
-  
-!-- How it works Section -->
-   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Inter+Tight:wght@400;500&display=swap" rel="stylesheet">
 
-<div style="display:flex; flex-direction:column; align-items:center; padding:40px; font-family:'Inter Tight', sans-serif;">
+header > h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
 
-  <div style="border:2px solid black; border-radius:12px; padding:30px; width:950px; background-color:white;">
+header > p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
 
-    <h1 style="text-align:center; margin-bottom:30px; font-family:'Inter', sans-serif;">How it works ?</h1>
+header > button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background-color: var(--blue);
+  color: var(--light-ui);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 200ms;
+}
 
-    <div style="display:flex; justify-content:center; gap:60px; align-items:stretch;">
+header > button:hover {
+  background-color: var(--blue-hover, #2485E5);
+  transform: scale(1.05);
+}
 
-      <div style="border:1px solid black; padding:30px; border-radius:10px; width:400px;">
-        <h2 style="font-family:'Inter', sans-serif;">Coop Search</h2>
-        <ol style="font-family:'Inter Tight', sans-serif; line-height:1.6;">
-          <li>Create your Ulink profile with your program, year of study, skills and interests.</li>
-          <li>uLink automatically scans verified co-op and internship postings from partner companies and institutions.</li>
-          <li>Our matching system filters opportunities that align with your program and experience level.</li>
-          <li>View all relevant openings in a single dashboard — with details like duration, location, and eligibility.</li>
-          <li>Apply directly through uLink using your saved profile and resume — no repetitive forms needed.</li>
-          <li>Track your applications and receive status updates in real time.</li>
-          <li>Get notified instantly when new matching co-op opportunities are posted.</li>
-        </ol>
-      </div>
+/* SECTION HEADERS */
+h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 2rem 1rem 1rem;
+    color: var(--dark-ui);
+}
 
-      <div style="border:1px solid black; padding:30px; border-radius:10px; width:400px;">
-        <h2 style="font-family:'Inter', sans-serif;">Scholarship Search</h2>
-        <ol style="font-family:'Inter Tight', sans-serif; line-height:1.6;">
-          <li>Set up your academic profile — including GPA, program, nationality, and financial needs.</li>
-          <li>uLink compiles available scholarships from universities, government.</li>
-          <li>The recommendation system filters and displays only scholarships that match your eligibility criteria.</li>
-          <li>Access key information instantly — amount, deadline, and required documents.</li>
-          <li>Apply directly through uLink or access the official application page with pre-filled details.</li>
-          <li>Receive reminders before deadlines and updates on your submitted applications.</li>
-          <li>Save and organize your favorite scholarships for later review.</li>
-        </ol>
-      </div>
+/* COMPARISON SECTION */
+.comparisonDeck {
+  width: 95vw;
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
-    </div>
-  </div>
-</div>
+.comparisonCard {
+  flex: 1;
+  padding: 10px 20px 10px 10px;
+  border: 0;
+  min-width: 200px;
+  border-radius: 10px;
+  margin: 12px;
+}
+
+.comparisonHeader {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.comparisonList {
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+.comparisonList > li {
+  margin-bottom: 5px;
+}
+
+/* HOW IT WORKS */
+.howDeck {
+  display:flex; 
+  flex-wrap: wrap;
+  justify-content:center; 
+  gap:60px; 
+  align-items:stretch;
+  width: 95vw;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.howCard {
+  background-color: #FFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding:30px; 
+  border-radius:10px; 
+  width:400px;
+}
+
+.howHeader {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.howList {
+  list-style-position: inside;
+  list-style-type: decimal;
+}
+
+.howList > li {
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+/* QUESTION CARD */
+.questionDeck {
+  width: 95vw;
+  margin: auto;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.questionCard {
+  background-color: #FFF;
+  padding: 10px;
+  border: 0;
+  border-radius: 0.5rem;
+}
+
+.questionCard > summary {
+  font-weight: bold;
+  margin-bottom: 10px;
+}

@@ -16,7 +16,7 @@
   <!-- Header -->
     <nav>
         <a href="/index.html">
-            <img src="./branding/Ulink_Logo.png" alt="Ulink logo">
+            <img src="./branding/Ulink_Logo.png" alt="Ulink logo" width="50" height="50">
         </a>
         <a href="/index.html">Home</a> 
         <a href="/product.html">Features</a> 
@@ -25,34 +25,52 @@
     </nav>
 
   <!-- Pricing Section -->
-<section class="pricing-header">
-  <h1>Choose Your Plan</h1>
-  <p>Switch between Monthly and Annual plans to see your savings.</p>
-</section>
+<h1 class="mainHeader">Pricing</h1>
+<p class="subHeader">Choose Your Plan To Fit Your Needs</p>
+
+<div class="currencySection">
+    <label for="currencyMenu">Currency:</label>
+    <select id="currencyMenu" class="currencyMenu">
+        <option value="cad" selected>$ CAD</option>
+        <option value="usd">$ USD</option>
+    </select>
+</div>
+
 <section class="pricing-container">
   <div class="plan-box">
     <h3>Basic</h3>
-    <p>Free / month</p>
-    <p>Search & apply manually</p>
-    <p>Basic support</p>
+    <p>$0 <span class="plan-box-month-span">/ month</span></p>
+    <ul>
+      <li>Automated & Filtered Scholarship Search</li>
+      <li>Wide Access To Intership Database</li>
+      <li>Dashboard With Full Research Overview</li>
+    </ul>
     <button>Sign Up</button>
   </div>
 
   <div class="plan-box">
     <h3>Pro</h3>
-    <p>$24.99 / month</p>
-    <p>All Basic features</p>
-    <p>Priority support</p>
+    <p>$<span id="price">24.99</span> <span class="plan-box-month-span">/ month</span></p>
+    <ul>
+      <li>Fully Automated Scholarship Search</li>
+      <li>Automatic Scholarship Application</li>
+      <li>Complete Access To Intership Database</li>
+      <li>Automated Intership Elegibility Scanner</li>
+      <li>Advanced Research Dashboard With Full Overview</li>
+      <li>No Ads!</li>
+    </ul>
     <button>Sign Up</button>
   </div>
 </section>
 
+  <div style="height: 5rem"></div>
 
-  <!-- Footer -->
+  <!-- Footer Section -->
   <footer>
-    <p>© 2025 Ulink. All rights reserved.</p>
+    <p>© <span id="footerYear">2025</span> Ulink. All rights reserved.</p>
   </footer>
 
+    <script src="./script.js"></script>
 </body>
 </html>
 

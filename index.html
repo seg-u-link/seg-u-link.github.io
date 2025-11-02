@@ -14,7 +14,7 @@
  
     <nav>
         <a href="/index.html">
-            <img src="./branding/Ulink_Logo.png" alt="Ulink logo">
+            <img src="./branding/Ulink_Logo.png" alt="Ulink logo" width="50" height="50"> 
         </a>
         <a href="/index.html">Home</a> 
         <a href="/product.html">Features</a> 
@@ -29,20 +29,20 @@
   </header> 
     
     <!-- Comparison Section -->
-    <h2 style="text-align:center;"> How it works ?</h2>
-    <div>
-        <div>
-            <h3>Student's Problem</h3>
-            <ul>
+    <h2> How it works ?</h2>
+    <div class="comparisonDeck">
+        <div class="comparisonCard" style="background-color: #ff6b6b;">
+            <h3 class="comparisonHeader">Student's Problem</h3>
+            <ul class="comparisonList">
                 <li>"I spent too much time looking for scholarships"</li>
                 <li>"I can't keep track of what I have and haven't applied for"</li>
                 <li>"Why does it feel like no one is hiring people in my program?"</li>
                 <li>"I don't have time to go through every single job to find a good one"</li>
             </ul>
         </div>
-        <div>
-            <h3>ULink's Solution</h3>
-            <ul>
+        <div class="comparisonCard" style="background-color: #6fc276;">
+            <h3 class="comparisonHeader">ULink's Solution</h3>
+            <ul class="comparisonList">
                 <li>Use automated software to automatically find scholarships you are eligible for</li>
                 <li>View your research progress with our integrated dashboard and analytics</li>
                 <li>Filter through ULink's extensive intership and co-op database to see the ones that match your exact profile</li>
@@ -52,63 +52,63 @@
     </div>
 
     <!-- How it works Section -->
-    <h1 style="text-align:center;"> How it works ?</h1>
- <div style="display:flex; justify-content:center; gap:42px;align-items:stretch;">
-    <div style="border:1px solid black; padding:20px;">
-    <h2>Coop Search</h2>
-    <ol>
-        <li>Create your Ulink profile with your program, year of study, skills and interests.</li>
-        <li>uLink automatically scans verified co-op and internship postings from partner companies and institutions.</li>
-        <li>Our matching system filters opportunities that align with your program and experience level.</li>
-        <li>View all relevant openings in a single dashboard — with details like duration, location, and eligibility.</li>
-        <li>Apply directly through uLink using your saved profile and resume — no repetitive forms needed.</li>
-        <li>Track your applications and receive status updates in real time.</li>
-        <li>Get notified instantly when new matching co-op opportunities are posted.</li>
-    </ol>
-    </div>
+    <h2>How it works ?</h1>
 
-    <div style="border:1px solid black; padding:20px;">
-    <h2>Scholarship Search</h2>
-    <ol>
-        <li>Set up your academic profile — including GPA, program, nationality, and financial needs.</li>
-        <li>uLink compiles available scholarships from universities, government.</li>
-        <li>The recommendation system filters and displays only scholarships that match your eligibility criteria.</li>
-        <li>Access key information instantly — amount, deadline, and required documents.</li>
-        <li>Apply directly through uLink or access the official application page with pre-filled details.</li>
-        <li>Receive reminders before deadlines and updates on your submitted applications.</li>
-        <li>Save and organize your favorite scholarships for later review.</li>
-      
-    </ol>
+    <div class="howDeck">
+
+        <div class="howCard">
+            <h3 class="howHeader">Coop Search</h3>
+            <ol class="howList">
+                <li>Create a co-op profile (program, year, skills).</li>
+                <li>ULink auto-scans verified co-op listings.</li>
+                <li>See matches tailored to your profile.</li>
+                <li>Apply and track your applications from the dashboard.</li>
+            </ol>
+        </div>
+
+        <div class="howCard">
+            <h3 class="howHeader">Scholarship Search</h3>
+            <ol class="howList">
+                <li>Add your academic details (GPA, program).</li>
+                <li>Find scholarships that match your eligibility.</li>
+                <li>View deadlines and required documents from the dashboard.</li>
+                <li>Save your favorites and receive deadline reminders.</li>
+            </ol>
+        </div>
+
     </div>
-</div>
 
     <!-- FAQs Section -->
-    <h2 style="text-align:center;"> FAQs ?</h2>
-    <div>
-        <details>
+    <h2> FAQs</h2>
+    <div class="questionDeck">
+        <details class="questionCard">
             <summary>Where does ULink find co-ops and scholarships?</summary>
             <p>ULink uses automated web software to scan databases, posting websites, and job boards to find high quality and relevant information for your profile. </p>
         </details>
 
-        <details>
+        <details class="questionCard">
             <summary>Why should I trust ULink?</summary>
             <p>ULink has partnered with and is trusted by many companies, organizations, universities, and other groups to provided the best quality services for our customers.</p>
         </details>
 
-        <details>
+        <details class="questionCard">
             <summary>What if ULink makes a mistake?</summary>
             <p>ULink's software is highly tested to ensure minimal errors. To further mitigate these issues, ULink will ask for user confirmation before taking any important action. If an error still gets through, contact one of our staff members and we'll deal with it.</p>
         </details>
 
-        <details>
+        <details class="questionCard">
             <summary>Am I guarranted a co-op with ULink?</summary>
             <p>ULink's services doesn't guarrante a co-op placement as it is based on individual competencies but it will help you be exposed to a lot more opportunities than manual research, which will only boost your chance</p>
         </details>
     </div>
 
+    <div style="height: 5rem"></div>
+
     <!-- Footer Section -->
     <footer>
-        <p>© 2025 Ulink. All rights reserved.</p>
+        <p>© <span id="footerYear">2025</span> Ulink. All rights reserved.</p>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>
